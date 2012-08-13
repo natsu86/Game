@@ -8,4 +8,11 @@ public class Hero {
 	private String name;
 	private PassiveSkills[] passiveSkills;
 	private MagicalSkills[] magicalSkills;
+	private Hero[] allys;
+	
+	public void sayMyName ()
+	{
+		System.out.println("My name is : ");
+		System.out.println("End");
+	}
 }
