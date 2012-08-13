@@ -12,7 +12,7 @@ public class Hero {
 	
 	public void sayMyName ()
 	{
-		System.out.println("My name is : ");
+		System.out.println("My name is : "+name);
 		System.out.println("End");
 	}
 }
