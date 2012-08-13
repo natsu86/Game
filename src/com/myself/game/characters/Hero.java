@@ -9,6 +9,7 @@ public class Hero {
 	private PassiveSkills[] passiveSkills;
 	private MagicalSkills[] magicalSkills;
 	private Hero[] allys;
+	private String firstName;
 	
 	public void sayMyName ()
 	{
